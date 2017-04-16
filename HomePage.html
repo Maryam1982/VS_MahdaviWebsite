@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>خانه</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    
+    <link href="Content/sm-core-css.css" rel="stylesheet" type="text/css" />
+    <link href="Content/smartmenusCostumStyle.css" rel="stylesheet" type="text/css" />
+    <link href="Content/sm-blue/sm-blue.css" rel="stylesheet" type="text/css" />
+
+    <link href="Content/animate.css" rel="stylesheet" type="text/css"/>
+
+
+    <link href="Content/HomePageStyleSheet.css" rel="stylesheet" />
+    <link href="Content/generalStyle.css" rel="stylesheet" />
+    <script type="text/javascript" src="Scripts/libs/jquery/jquery.js"></script>
+
+    <script type="text/javascript"  src="Scripts/bootstrap.js"></script>
+
+    <!-- SmartMenus jQuery plugin -->
+    <script type="text/javascript" src="Scripts/jquery.smartmenus.js"></script>
+
+    <script src="Scripts/CustomCarousel.js" type="text/javascript"></script>
+    
+    <!-- SmartMenus jQuery init -->
+    <script src="Scripts/smartMenuInit.js"></script>
+
+    
+
+</head>
+<body>
+
+    <nav class="main-nav" role="navigation">
+
+        <h2 class="nav-brand"><a href="#">Brand</a></h2>
+        <span class="main-menu-btn" id="menuButton"></span>
+        <!-- Menu definition -->
+        <ul id="main-menu" class="sm sm-blue sm-rtl ">
+            <li><a href="HomePage.html" id="mainPagelnk">صفحه اصلی</a></li>
+            
+            <li >
+                <a href="#" id="networkServicelnk">خدمات شبکه</a>
+                <ul>
+                    <li ><a href="#">passive شبکه</a></li>
+                    <li ><a href="#">و نحوه ارتباط سطح شبکه Active</a></li>
+                    <li ><a href="#">مجازی سازی</a></li>
+                    <li ><a href="#">امنیت شبکه</a></li>
+                </ul>
+            </li>
+            <li >
+                <a href="#" id="softwareServicelnk">خدمات نرم افزاری</a>
+                <ul>
+                    <li ><a href="#">حضور و غیاب</a></li>
+                    <li ><a href="#">BI</a></li>
+                    <li ><a href="#">عملکرد پرسنل</a></li>
+                    <li ><a href="#">CRM</a></li>
+                    <li ><a href="#">اتوماسیون اداری</a></li>
+                    <li ><a href="#">نرم افزار جامع تولید</a></li>
+                    <li ><a href="#">ERP</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" id="productlnk">محصولات</a>
+                <ul>
+                    <li ><a href="#">سرور</a></li>
+                    <li ><a href="#">سوئیچ</a></li>
+                    <li ><a href="#">Passive تجهیزات</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" id="learninglnk">مقالات و آموزش</a>
+
+            </li>
+            <li>
+                <a href="#" id="supportlnk">پشتیبانی</a>
+                <ul>
+                    <li ><a href="#">شبکه</a></li>
+                    <li ><a href="#">نرم افزار</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" id="overviewlnk">شرکت در یک نگاه</a>
+                <ul>
+                    <li ><a href="#">اهداف شرکت</a></li>
+                    <!--<li ><a href="organizationalChart.aspx">نمودار سازمانی</a></li>-->
+                    
+                    <li><a href="https://maryam1982.github.io/websiteVersion1/organizationalChart.aspx">نمودار سازمانی</a></li>
+                </ul>
+            </li>
+            <li ><a href="#" id="contactUslnk">تماس با ما</a></li> 
+            <li><a href="aboutUs.aspx" id="aboutUslnk">درباره ما</a></li>
+        </ul>
+    </nav>
+  
+   <span class="pl1"></span>
+
+    <div id="carouselContainer" class="container ">
+
+        <div id="CarouselIntro" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#CarouselIntro" data-slide-to="0" class="active"></li>
+                <li data-target="#CarouselIntro" data-slide-to="1"></li>
+                <li data-target="#CarouselIntro" data-slide-to="2"></li>
+                <li data-target="#CarouselIntro" data-slide-to="3"></li>
+                <li data-target="#CarouselIntro" data-slide-to="4"></li>
+                <li data-target="#CarouselIntro" data-slide-to="5"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" >
+                    <div class="carousel-caption">
+                        <h3 class="icon-container" data-animation="animated bounceInDown">
+                            <span class="glyphicon glyphicon-lamp"></span>
+                        </h3>
+                        <h3 data-animation="animated bounceInLeft">
+                            ... از نخستین گام
+                        </h3>
+                        <h3 data-animation="animated bounceInRight">
+                            ایده اولیه
+                        </h3>
+                    </div>
+                    <img src="Images/newIdeas1.jpg" alt="Idea" />
+                </div>
+                <div class="item" >
+                    <div class="carousel-caption">
+                        <h3 class="icon-container" data-animation="animated bounceInDown">
+                            <span class="glyphicon glyphicon-blackboard"></span>
+                        </h3>
+                        <h3 data-animation="animated bounceInUp">
+                            طراحی شبکه
+                        </h3>
+                    </div>
+                    <img src="Images/NetworkPlanning4.jpg" alt="Planning" />
+                </div>
+                <div class="item" >
+                    <div class="carousel-caption">
+                        <h3 class="icon-container" data-animation="animated zoomInLeft">
+                            <span class="glyphicon glyphicon-modal-window"></span>
+                        </h3>
+                        <h3 data-animation="animated flipInX">
+                            پیاده سازی
+                        </h3>
+                    </div>
+                    <img src="Images/NetworkImplementation3.jpg" alt="Implementation" />
+                </div>
+                <div class="item" >
+                    <div class="carousel-caption">
+                        <h3 class="icon-container" data-animation="animated zoomInLeft">
+                            <span class="glyphicon glyphicon-wrench"></span>
+                        </h3>
+                        <h3 data-animation="animated flipInX">
+                            نگهداری
+                        </h3>
+                    </div>
+                    <img src="Images/eidted-Maintenance.jpg" alt="Maintenance" />
+                </div>
+                <div class="item" >
+                    <div class="carousel-caption">
+                        <h3 class="icon-container" data-animation="animated zoomInLeft">
+                            <span class="glyphicon glyphicon-sunglasses"></span>
+                        </h3>
+                        <h3 data-animation="animated flipInX">
+                            امنیت شبکه
+                        </h3>
+                    </div>
+                    <img src="Images/networkSecurity4.jpg" alt="Implementation" />
+                </div>
+                <div class="item" >
+                    <div class="carousel-caption">
+                        <h3 class="icon-container" data-animation="animated zoomInLeft">
+                            <span class="glyphicon glyphicon-check"></span>
+                        </h3>
+                        <h3 data-animation="animated flipInX">
+                            تا پایان...
+                        </h3>
+                        <h3 data-animation="animated zoomInLeft">
+                            !همراه شما خواهیم بود
+                        </h3>
+                    </div>
+                    <img src="Images/Final-Piece.jpg" alt="Implementation" />
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#CarouselIntro" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">قبل</span>
+            </a>
+
+            <a class="right carousel-control" href="#CarouselIntro" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">بعد</span>
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+
+    <span class="pl2"></span>
+    <div class="container" id="bodyContainer">
+        <div class="row">
+            <div class="  col-xs-12 col-sm-6 col-md-3" >
+                <div id="firstColumn" class="inview  animated bounce content-first">
+                    <h3>خدمات شبکه</h3>
+                    <h4>پسیو شبکه</h4>
+                    <ul>
+                        <li>نصب داکت</li>
+                        <li>کابل کشی شبکه</li>
+                        <li>مستند سازی شبکه</li>
+                        <li>نقشه لی اوت شبکه</li>
+                        <li>نقشه منطقی شبکه</li>
+                        <li>دیتا سنتر</li>
+                        <li>...</li>
+                    </ul>
+                </div>
+            </div>
+            <div  class="  col-xs-12 col-sm-6 col-md-3" >
+                <div id="secondColumn" class="inview bounce content-second">
+                    <h3>خدمات شبکه</h3>
+                    <h4>اکتیو شبکه</h4>
+                    <ul>
+                        <li>اکتیو دایرکتوری</li>
+                        <li>سرور و آی پی اتوماتیک DHCP</li>
+                        <li>ریموت سرور</li>
+                        <li>پالسی های اعمال شده در شبکه</li>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+                    <!--<span class="place-holder"></span>-->
+                </div>
+            </div>
+            <div class="  col-xs-12 col-sm-6 col-md-3">
+                <div id="thirdColumn" class="inview animated bounce content-third">
+                    <h3>خدمات شبکه</h3>
+                    <h4>اکتیو شبکه</h4>
+                    <ul>
+                        <li>سرورهای مجازی</li>
+                        <li>زیرو کلاینت و حذف کیس</li>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                        <li>...</li>
+                    </ul>
+                    <!--<span class="place-holder"></span>-->
+                </div>   
+            </div>
+            
+            <div class="  col-xs-12 col-sm-6 col-md-3 ">
+                <div id="fourthColumn" class="inview animated bounce content-fourth">
+                    <h3>خدمات شبکه</h3>
+                    <h4>خدمات نرم افزار</h4>
+                    <ul>
+                        <li>حضور و غیاب</li>
+                        <li>عملکرد پرسنل</li>
+                        <li>اتوماسیون اداری</li>
+                        <li>BI</li>
+                        <li>CRM</li>
+                        <li>نرم افزار جامع تولید</li>
+                        <li>ERP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="Scripts/viewDetect.js"></script>
+    <script src="Scripts/animatedItems.js"></script>
+    <script>
+        window.onresize = function () {
+            if (window.innerWidth > 767)
+                document.getElementById("main-menu").style.display = "block";
+            else 
+                document.getElementById("main-menu").style.display = "none";
+        }
+       
+    </script>
+    <script>
+        
+        $(function(){
+                $("#menuButton").click(function () {
+                    //$("#main-menu").toggle();
+                    if ($("#main-menu").css('display') === 'block')
+                        $("#main-menu").css('display', 'none');
+                    else
+                        $("#main-menu").css('display', 'block');
+                });
+        });
+        
+    </script>
+
+    
+<footer >
+    <img src="Images/networkFooter2.jpg" class="img-responsive" />
+</footer>
+</body>
+
+</html>
+
